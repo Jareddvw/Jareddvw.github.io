@@ -16,17 +16,20 @@ function App() {
           <div>
             LinkedIn: <a href="https://www.linkedin.com/in/jareddvw/">Jareddvw</a>
           </div>
+          <div>
+            Email: <a href="mailto:jared@redj.dev">jared@redj.dev</a>
+          </div>
         </div>
         <div style={{ marginTop: '1rem' }}>
           Some projects with more links:
           <div>
-            <a href="https://jareddvw.github.io/webgl-fluid/">WebGL Fluid Simulation</a>
+            <a href="https://redj.dev/webgl-fluid/">WebGL Fluid Simulation</a>
           </div>
           <div>
             <a href="https://db.gem-net.net/">NSF Reactions Database</a>
           </div>
           <div>
-            <a href="https://jareddvw.github.io/minesweeper/">Minesweeper</a>
+            <a href="https://redj.dev/minesweeper/">Minesweeper</a>
           </div>
         </div>
       </div>
