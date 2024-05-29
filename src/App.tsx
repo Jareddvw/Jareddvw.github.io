@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div>
-        Hi, you've reached my personal website.
+        Hi! You've reached my personal website.
         There's not much here yet.
       </div>
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'}}> 
@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
         <div style={{ marginTop: '1rem' }}>
-          Some projects with more links:
+          Some projects and more links (in order of recency):
           <div>
             <a href="https://redj.dev/webgl-fluid/">WebGL Fluid Simulation</a>
           </div>
