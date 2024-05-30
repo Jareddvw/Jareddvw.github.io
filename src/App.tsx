@@ -1,4 +1,5 @@
 import './App.css'
+import { ProjectList } from './components/ProjectList'
 
 function App() {
   return (
@@ -20,18 +21,7 @@ function App() {
             Email: <a href="mailto:jared@redj.dev">jared@redj.dev</a>
           </div>
         </div>
-        <div style={{ marginTop: '1rem' }}>
-          Some projects and more links (in order of recency):
-          <div>
-            <a href="https://redj.dev/webgl-fluid/">WebGL Fluid Simulation</a>
-          </div>
-          <div>
-            <a href="https://db.gem-net.net/">NSF Reactions Database</a>
-          </div>
-          <div>
-            <a href="https://redj.dev/minesweeper/">Minesweeper</a>
-          </div>
-        </div>
+        <ProjectList />
       </div>
     </>
   )
