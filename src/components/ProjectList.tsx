@@ -30,9 +30,6 @@ export const ProjectList = () => {
         <div>
             <a href="https://github.com/Jareddvw/where2eat">Where2eat</a>
         </div>
-        <div>
-            <a href="https://db.gem-net.net/">NSF Reactions Database</a>
-        </div>
     </div>
   )
 }
