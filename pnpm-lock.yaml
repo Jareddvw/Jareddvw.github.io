@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@red_j/webgl-fluid-sim':
+    specifier: ^1.0.3
+    version: 1.0.3
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -582,6 +585,10 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
     dev: true
+
+  /@red_j/webgl-fluid-sim@1.0.3:
+    resolution: {integrity: sha512-+CLhR7DWAiU6KwcRIPnTKa3B1hExVkBrZSxDZNGsr2c7LZqM0DN7gLRp7E25SyYYi3JB9vTVYi2d+lDFup5LhQ==}
+    dev: false
 
   /@rollup/rollup-android-arm-eabi@4.18.0:
     resolution: {integrity: sha512-Tya6xypR10giZV1XzxmH5wr25VcZSncG0pZIjfePT0OVBvqNEurzValetGNarVrGiq66EBVAFn15iYX4w6FKgQ==}

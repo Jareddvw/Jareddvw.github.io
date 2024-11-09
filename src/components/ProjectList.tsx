@@ -6,6 +6,8 @@
 //     description: string;
 // }
 
+import { FluidSim } from "./FluidSim"
+
 // const Section = (props: SectionProps) => {
 //     return (
 //         <div>
@@ -27,6 +29,7 @@ export const ProjectList = () => {
         <div>
             <a href="https://redj.dev/webgl-fluid/">WebGL Fluid Simulation</a>
         </div>
+        <FluidSim width={300} height={200} />
         <div>
             <a href="https://github.com/Jareddvw/where2eat">Where2eat</a>
         </div>
